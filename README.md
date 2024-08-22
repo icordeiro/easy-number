@@ -23,3 +23,27 @@ Para instalar e usar o plugin, siga os passos abaixo:
    ```html
    <link rel="stylesheet" href="path/to/easy-number.css">
    <script src="path/to/easy-number.js"></script>
+
+## Uso
+
+1. **HTML**
+Para criar um input com o plugin, adicione a classe easy-number ao seu elemento <input>:
+
+```html
+<input type="number" class="easy-number" min="1" max="10" step="1" value="5">
+
+2. **Javascript**
+
+```javascript
+document.addEventListener('DOMContentLoaded', () => {
+    EasyNumber.initAll();
+});
+
+## Contribuição
+Se você gostaria de contribuir para este projeto, siga estas etapas:
+
+1. Faça um fork do repositório.
+2. Crie uma branch para sua modificação (git checkout -b feature/YourFeature).
+3. Faça as mudanças e adicione um commit (git commit -am 'Add new feature').
+4. Faça o push para a branch (git push origin feature/YourFeature).
+5. Abra um pull request

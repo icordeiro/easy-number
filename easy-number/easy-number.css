@@ -1,0 +1,73 @@
+:root {
+    --easy-number-border-radius: 0.375rem;
+    --easy-number-border-width: 1px;
+    --easy-number-border-color: #ced1d5;
+}
+
+/* Ocultar as setas padrão do input number */
+.easy-number-wrapper input::-webkit-outer-spin-button,
+.easy-number-wrapper input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.easy-number-wrapper input[type=number] {
+    -moz-appearance: textfield; /* Para navegadores Firefox */
+}
+
+.easy-number-wrapper {
+    display: inline-flex; /* Mantém inputs lado a lado */
+    align-items: center;
+    border-radius: var(--easy-number-border-radius);
+    overflow: hidden;
+    width: max-content;
+    margin-right: 8px; /* Espaçamento entre inputs, se necessário */
+}
+
+.easy-number-wrapper input {
+    text-align: center;
+    width: 40px;
+    border: var(--easy-number-border-width) solid var(--easy-number-border-color);
+    border-radius: 0;
+    outline: none;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    height: auto;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.easy-number-wrapper input:focus {
+    border-color: #696cff !important;
+}
+
+.easy-number-wrapper button {
+    background-color: #696cff;
+    color: white;
+    border: var(--easy-number-border-width) solid #696cff;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 5px 10px;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.easy-number-wrapper button.decrement {
+    border-top-left-radius: var(--easy-number-border-radius);
+    border-bottom-left-radius: var(--easy-number-border-radius);
+}
+
+.easy-number-wrapper button.increment {
+    border-top-right-radius: var(--easy-number-border-radius);
+    border-bottom-right-radius: var(--easy-number-border-radius);
+}
+
+.easy-number-wrapper button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

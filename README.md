@@ -31,13 +31,17 @@ Para criar um input com o plugin, adicione a classe easy-number ao seu elemento 
 
 ```html
 <input type="number" class="easy-number" min="1" max="10" step="1" value="5">
+```html
 
 2. **Javascript**
 
-```javascript
-document.addEventListener('DOMContentLoaded', () => {
-    EasyNumber.initAll();
-});
+```html
+<script>
+   document.addEventListener('DOMContentLoaded', () => {
+       EasyNumber.initAll();
+   });
+</script>
+```html
 
 ## Contribuição
 Se você gostaria de contribuir para este projeto, siga estas etapas:

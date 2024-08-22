@@ -8,7 +8,6 @@ O EasyNumber é um plugin JavaScript que adiciona botões de incremento e decrem
 - [Uso](#uso)
 - [Contribuição](#contribuição)
 - [Licença](#licença)
-- [Contato](#contato)
 
 ## Descrição
 

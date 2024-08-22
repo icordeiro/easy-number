@@ -23,7 +23,7 @@ Para instalar e usar o plugin, siga os passos abaixo:
    ```html
    <link rel="stylesheet" href="path/to/easy-number.css">
    <script src="path/to/easy-number.js"></script>
-
+   ```html
 ## Uso
 
 1. **HTML**

@@ -23,17 +23,17 @@ Para instalar e usar o plugin, siga os passos abaixo:
    ```html
    <link rel="stylesheet" href="path/to/easy-number.css">
    <script src="path/to/easy-number.js"></script>
-   ```html
+   
 ## Uso
 
-1. **HTML**
+1. **Adicionar o HTML para o input**
 Para criar um input com o plugin, adicione a classe easy-number ao seu elemento <input>:
 
 ```html
 <input type="number" class="easy-number" min="1" max="10" step="1" value="5">
-```html
-
-2. **Javascript**
+```
+2. **Inicializar o plugin com javascript**
+pós incluir o arquivo JavaScript do plugin e o HTML, inicialize o plugin:
 
 ```html
 <script>
@@ -41,13 +41,28 @@ Para criar um input com o plugin, adicione a classe easy-number ao seu elemento 
        EasyNumber.initAll();
    });
 </script>
-```html
+```
 
 ## Contribuição
+
 Se você gostaria de contribuir para este projeto, siga estas etapas:
 
 1. Faça um fork do repositório.
 2. Crie uma branch para sua modificação (git checkout -b feature/YourFeature).
 3. Faça as mudanças e adicione um commit (git commit -am 'Add new feature').
 4. Faça o push para a branch (git push origin feature/YourFeature).
-5. Abra um pull request
+5. Abra um pull request.
+
+## Licença
+
+Este projeto é licenciado sob a MIT License.
+Feito com 💙 por icordeiro.
+
+### Explicações Adicionais:
+
+- **Descrição:** Explica o que o plugin faz e suas principais funcionalidades.
+- **Instalação:** Passo a passo para adicionar o plugin ao seu projeto.
+- **Uso:** Exemplos práticos de como implementar o plugin.
+- **Contribuição:** Diretrizes para quem deseja contribuir para o projeto.
+- **Licença:** Informação sobre a licença do projeto, geralmente uma licença open source como a MIT.
+- **Contato:** Como entrar em contato para mais informações ou suporte.
